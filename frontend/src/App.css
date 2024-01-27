@@ -1,0 +1,135 @@
+body{
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.login_fond{
+  background:url('../public/image/Rectangle\ 2179.png')
+}
+/* Sidebar */
+
+.sidebar .nav{
+  padding: 0!important;
+}
+
+.nav-item.selected .nav-link {
+  background-color: #f0f0f0;
+  
+  color: #2a2828;
+}
+
+.nav-item.selected-menu i {
+  color: #2a2828; 
+}
+
+
+.nav-item.selected .nav-link {
+  background-color: #f0f0f0;
+  color: #2a2828!important;
+}
+
+.selected-menu {
+  color: #2a2828 !important; 
+}
+
+
+
+/* search */
+.has-search .form-control {
+  padding-left: 2.375rem;
+  border-radius: 9999px !important;
+  height: 2rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 1.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.profile_image{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  
+}
+
+
+
+
+
+
+
+
+/* responsive sidebare */
+
+/* @media (min-width: 768px) {
+  .col-md-2 {
+    flex: 0 0 16.66667%;
+  }
+
+  .col-md-10 {
+    flex: 0 0 83.33333%; /
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
